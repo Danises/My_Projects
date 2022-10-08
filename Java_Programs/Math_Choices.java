@@ -1,3 +1,5 @@
+//The following program lets the user choose any of the three math calculations
+//After choosing, the user inputs two or one number to be calculated.
 import java.util.Scanner;
 public class Math_Choices
 {
