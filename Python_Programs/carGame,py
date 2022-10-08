@@ -1,0 +1,34 @@
+#Program Car Game
+
+started = False
+command = ""
+
+print('''
+        start - start car engine
+        stop - stop the car
+        quit - exit the game
+        ''')
+
+while command != "quit":
+
+    command = input(">").lower()
+
+    if command == "start":
+        if started: #True
+            print("car is already started")
+        else: #False
+            started = True
+            print("Car started...")
+
+
+    elif command == "stop":
+        if not started: #If not 
+            print("Car is already stopped")
+        else:
+            started = False
+            print("Car stopped")
+
+    elif command == "quit":
+        break
+    else: 
+        print("Invalid word")
