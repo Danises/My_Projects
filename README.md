@@ -1,2 +1,2 @@
 # My_Projects
-# Small Projects I work on with programming languages.
+# Small-scale Projects I work on with programming languages.
